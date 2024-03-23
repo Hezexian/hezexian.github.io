@@ -401,9 +401,9 @@
     <category term="视觉slam" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/"/>
     
     
-    <category term="cmake" scheme="http://example.com/tags/cmake/"/>
-    
     <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
+    
+    <category term="cmake" scheme="http://example.com/tags/cmake/"/>
     
     <category term="c++" scheme="http://example.com/tags/c/"/>
     
@@ -431,9 +431,9 @@
     <category term="opencv" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/opencv/"/>
     
     
-    <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
-    
     <category term="opencv" scheme="http://example.com/tags/opencv/"/>
+    
+    <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
     
     <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     

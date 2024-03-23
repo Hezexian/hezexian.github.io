@@ -376,9 +376,9 @@
       
         <tags>
             
-            <tag> cmake </tag>
-            
             <tag> 视觉slam </tag>
+            
+            <tag> cmake </tag>
             
             <tag> c++ </tag>
             
@@ -407,9 +407,9 @@
       
         <tags>
             
-            <tag> 视觉slam </tag>
-            
             <tag> opencv </tag>
+            
+            <tag> 视觉slam </tag>
             
             <tag> 环境配置 </tag>
             
