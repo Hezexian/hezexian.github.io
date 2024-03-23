@@ -3,11 +3,11 @@
   <title>何泽贤的图书室</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://hezexian.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://hezexian.github.io/"/>
   <updated>2024-03-23T09:26:06.422Z</updated>
-  <id>http://example.com/</id>
+  <id>https://hezexian.github.io/</id>
   
   <author>
     <name>He Zexian</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>protues配置相关</title>
-    <link href="http://example.com/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/"/>
-    <id>http://example.com/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/</id>
+    <link href="https://hezexian.github.io/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/"/>
+    <id>https://hezexian.github.io/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/</id>
     <published>2024-02-26T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.422Z</updated>
     
@@ -36,21 +36,21 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="嵌入式" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="嵌入式" scheme="http://example.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-    <category term="protues" scheme="http://example.com/tags/protues/"/>
+    <category term="protues" scheme="https://hezexian.github.io/tags/protues/"/>
     
   </entry>
   
   <entry>
     <title>platformio配置问题</title>
-    <link href="http://example.com/2024/02/26/platformio%E9%85%8D%E7%BD%AE/"/>
-    <id>http://example.com/2024/02/26/platformio%E9%85%8D%E7%BD%AE/</id>
+    <link href="https://hezexian.github.io/2024/02/26/platformio%E9%85%8D%E7%BD%AE/"/>
+    <id>https://hezexian.github.io/2024/02/26/platformio%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-25T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.372Z</updated>
     
@@ -64,23 +64,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="嵌入式" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="嵌入式" scheme="http://example.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-    <category term="platformio" scheme="http://example.com/tags/platformio/"/>
+    <category term="platformio" scheme="https://hezexian.github.io/tags/platformio/"/>
     
   </entry>
   
   <entry>
     <title>通过代码配置PlatformIO生成HEX文件</title>
-    <link href="http://example.com/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/"/>
-    <id>http://example.com/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/</id>
+    <link href="https://hezexian.github.io/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/"/>
+    <id>https://hezexian.github.io/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/</id>
     <published>2024-02-23T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.672Z</updated>
     
@@ -95,23 +95,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="嵌入式" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="嵌入式" scheme="http://example.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="嵌入式" scheme="https://hezexian.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
-    <category term="platformio" scheme="http://example.com/tags/platformio/"/>
+    <category term="platformio" scheme="https://hezexian.github.io/tags/platformio/"/>
     
   </entry>
   
   <entry>
     <title>qt程序打包发布，含三方库</title>
-    <link href="http://example.com/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"/>
-    <id>http://example.com/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</id>
+    <link href="https://hezexian.github.io/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"/>
+    <id>https://hezexian.github.io/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/</id>
     <published>2024-02-18T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.482Z</updated>
     
@@ -127,19 +127,19 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="Qt" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/Qt/"/>
+    <category term="Qt" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/Qt/"/>
     
     
-    <category term="qt" scheme="http://example.com/tags/qt/"/>
+    <category term="qt" scheme="https://hezexian.github.io/tags/qt/"/>
     
   </entry>
   
   <entry>
     <title>vmware安装过增强工具还是无法拖放</title>
-    <link href="http://example.com/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/"/>
-    <id>http://example.com/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/</id>
+    <link href="https://hezexian.github.io/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/"/>
+    <id>https://hezexian.github.io/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/</id>
     <published>2024-02-18T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.542Z</updated>
     
@@ -155,23 +155,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="虚拟机" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="虚拟机" scheme="http://example.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://hezexian.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-    <category term="vmware" scheme="http://example.com/tags/vmware/"/>
+    <category term="vmware" scheme="https://hezexian.github.io/tags/vmware/"/>
     
   </entry>
   
   <entry>
     <title>1panel+雨云服务器+https配置lsky-pro（兰空图床）</title>
-    <link href="http://example.com/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/"/>
-    <id>http://example.com/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/</id>
+    <link href="https://hezexian.github.io/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/"/>
+    <id>https://hezexian.github.io/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/</id>
     <published>2024-02-14T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.322Z</updated>
     
@@ -188,23 +188,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="hexo" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/tags/hexo/"/>
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://hezexian.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>emit和connect的顺序问题</title>
-    <link href="http://example.com/2024/01/31/emit%E5%92%8Cconnect%E7%9A%84%E9%A1%BA%E5%BA%8F/"/>
-    <id>http://example.com/2024/01/31/emit%E5%92%8Cconnect%E7%9A%84%E9%A1%BA%E5%BA%8F/</id>
+    <link href="https://hezexian.github.io/2024/01/31/emit%E5%92%8Cconnect%E7%9A%84%E9%A1%BA%E5%BA%8F/"/>
+    <id>https://hezexian.github.io/2024/01/31/emit%E5%92%8Cconnect%E7%9A%84%E9%A1%BA%E5%BA%8F/</id>
     <published>2024-01-30T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.092Z</updated>
     
@@ -219,19 +219,19 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="Qt" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/Qt/"/>
+    <category term="Qt" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/Qt/"/>
     
     
-    <category term="qt" scheme="http://example.com/tags/qt/"/>
+    <category term="qt" scheme="https://hezexian.github.io/tags/qt/"/>
     
   </entry>
   
   <entry>
     <title>hexo在butterfly/next主题下代码块缩进问题</title>
-    <link href="http://example.com/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/"/>
-    <id>http://example.com/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/</id>
+    <link href="https://hezexian.github.io/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/"/>
+    <id>https://hezexian.github.io/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/</id>
     <published>2024-01-24T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.262Z</updated>
     
@@ -246,23 +246,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="hexo" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/tags/hexo/"/>
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://hezexian.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>C++ Primer</title>
-    <link href="http://example.com/2024/01/08/C++Primer/"/>
-    <id>http://example.com/2024/01/08/C++Primer/</id>
+    <link href="https://hezexian.github.io/2024/01/08/C++Primer/"/>
+    <id>https://hezexian.github.io/2024/01/08/C++Primer/</id>
     <published>2024-01-07T16:00:00.000Z</published>
     <updated>2024-03-16T16:00:00.000Z</updated>
     
@@ -277,21 +277,21 @@
     
     
     
-    <category term="读书笔记" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="读书笔记" scheme="https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="C++ Primer" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/"/>
+    <category term="C++ Primer" scheme="https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/"/>
     
     
-    <category term="c++" scheme="http://example.com/tags/c/"/>
+    <category term="c++" scheme="https://hezexian.github.io/tags/c/"/>
     
-    <category term="读书笔记" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="读书笔记" scheme="https://hezexian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>git基本操作</title>
-    <link href="http://example.com/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
-    <id>http://example.com/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
+    <link href="https://hezexian.github.io/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>https://hezexian.github.io/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
     <published>2024-01-02T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.142Z</updated>
     
@@ -310,19 +310,19 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="git" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/git/"/>
+    <category term="git" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/git/"/>
     
     
-    <category term="git" scheme="http://example.com/tags/git/"/>
+    <category term="git" scheme="https://hezexian.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>hoxe+github建站笔记</title>
-    <link href="http://example.com/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
-    <id>http://example.com/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</id>
+    <link href="https://hezexian.github.io/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"/>
+    <id>https://hezexian.github.io/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</id>
     <published>2024-01-02T11:29:00.000Z</published>
     <updated>2024-03-23T09:26:06.202Z</updated>
     
@@ -336,23 +336,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="hexo" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/hexo/"/>
     
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://hezexian.github.io/tags/hexo/"/>
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://hezexian.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>相机旋转矩阵相关</title>
-    <link href="http://example.com/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/"/>
-    <id>http://example.com/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</id>
+    <link href="https://hezexian.github.io/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/"/>
+    <id>https://hezexian.github.io/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</id>
     <published>2023-12-25T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.732Z</updated>
     
@@ -368,21 +368,21 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="视觉slam" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/"/>
+    <category term="视觉slam" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/"/>
     
     
-    <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
+    <category term="视觉slam" scheme="https://hezexian.github.io/tags/%E8%A7%86%E8%A7%89slam/"/>
     
-    <category term="计算机视觉" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+    <category term="计算机视觉" scheme="https://hezexian.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
     
   </entry>
   
   <entry>
     <title>cmake包含vslam常用库</title>
-    <link href="http://example.com/2023/04/26/cmake%E5%8C%85%E5%90%ABvslam%E5%B8%B8%E7%94%A8%E5%BA%93/"/>
-    <id>http://example.com/2023/04/26/cmake%E5%8C%85%E5%90%ABvslam%E5%B8%B8%E7%94%A8%E5%BA%93/</id>
+    <link href="https://hezexian.github.io/2023/04/26/cmake%E5%8C%85%E5%90%ABvslam%E5%B8%B8%E7%94%A8%E5%BA%93/"/>
+    <id>https://hezexian.github.io/2023/04/26/cmake%E5%8C%85%E5%90%ABvslam%E5%B8%B8%E7%94%A8%E5%BA%93/</id>
     <published>2023-04-25T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.032Z</updated>
     
@@ -396,23 +396,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="视觉slam" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/"/>
+    <category term="视觉slam" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/"/>
     
     
-    <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
+    <category term="视觉slam" scheme="https://hezexian.github.io/tags/%E8%A7%86%E8%A7%89slam/"/>
     
-    <category term="cmake" scheme="http://example.com/tags/cmake/"/>
+    <category term="cmake" scheme="https://hezexian.github.io/tags/cmake/"/>
     
-    <category term="c++" scheme="http://example.com/tags/c/"/>
+    <category term="c++" scheme="https://hezexian.github.io/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>cmake+mingw32+win11+clion编译OpenCV4.5+contrib</title>
-    <link href="http://example.com/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/"/>
-    <id>http://example.com/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/</id>
+    <link href="https://hezexian.github.io/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/"/>
+    <id>https://hezexian.github.io/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/</id>
     <published>2022-06-08T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:05.982Z</updated>
     
@@ -426,23 +426,23 @@
     
     
     
-    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="opencv" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/opencv/"/>
+    <category term="opencv" scheme="https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/opencv/"/>
     
     
-    <category term="opencv" scheme="http://example.com/tags/opencv/"/>
+    <category term="opencv" scheme="https://hezexian.github.io/tags/opencv/"/>
     
-    <category term="视觉slam" scheme="http://example.com/tags/%E8%A7%86%E8%A7%89slam/"/>
+    <category term="视觉slam" scheme="https://hezexian.github.io/tags/%E8%A7%86%E8%A7%89slam/"/>
     
-    <category term="环境配置" scheme="http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <category term="环境配置" scheme="https://hezexian.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>孙鑫VC++深入详解</title>
-    <link href="http://example.com/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"/>
-    <id>http://example.com/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</id>
+    <link href="https://hezexian.github.io/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://hezexian.github.io/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</id>
     <published>2021-05-31T16:00:00.000Z</published>
     <updated>2024-03-23T09:26:06.612Z</updated>
     
@@ -456,16 +456,16 @@
     
     
     
-    <category term="读书笔记" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="读书笔记" scheme="https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="孙鑫VC++深入详解" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"/>
+    <category term="孙鑫VC++深入详解" scheme="https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"/>
     
     
-    <category term="c++" scheme="http://example.com/tags/c/"/>
+    <category term="c++" scheme="https://hezexian.github.io/tags/c/"/>
     
-    <category term="读书笔记" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="读书笔记" scheme="https://hezexian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="mfc" scheme="http://example.com/tags/mfc/"/>
+    <category term="mfc" scheme="https://hezexian.github.io/tags/mfc/"/>
     
   </entry>
   
