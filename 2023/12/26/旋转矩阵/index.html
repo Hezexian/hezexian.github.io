@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>相机旋转矩阵相关 | 何泽贤的图书室</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="综述 写论文时一些旋转矩阵的问题没有搞懂，问了问chat gpt，将其回答记录如下。 插件问题导致第一次加载网页时，公式没法正常显示，刷新一下即可。  旋转矩阵简述旋转矩阵是一个3x3的矩阵，通常表示三维空间中的旋转变换。其9个元素分别代表了旋转矩阵的三列向量。具体而言，假设旋转矩阵为： $$R &#x3D; \begin{bmatrix}r_{11} &amp; r_{12} &amp; r_{">
+<meta property="og:type" content="article">
+<meta property="og:title" content="相机旋转矩阵相关">
+<meta property="og:url" content="http://example.com/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/index.html">
+<meta property="og:site_name" content="何泽贤的图书室">
+<meta property="og:description" content="综述 写论文时一些旋转矩阵的问题没有搞懂，问了问chat gpt，将其回答记录如下。 插件问题导致第一次加载网页时，公式没法正常显示，刷新一下即可。  旋转矩阵简述旋转矩阵是一个3x3的矩阵，通常表示三维空间中的旋转变换。其9个元素分别代表了旋转矩阵的三列向量。具体而言，假设旋转矩阵为： $$R &#x3D; \begin{bmatrix}r_{11} &amp; r_{12} &amp; r_{">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-12-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-03-23T09:26:06.732Z">
+<meta property="article:author" content="He Zexian">
+<meta property="article:tag" content="视觉slam">
+<meta property="article:tag" content="计算机视觉">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="何泽贤的图书室" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">何泽贤的图书室</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-旋转矩阵" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/" class="article-date">
+  <time class="dt-published" datetime="2023-12-25T16:00:00.000Z" itemprop="datePublished">2023-12-26</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>►<a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/">视觉slam</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      相机旋转矩阵相关
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h1><ul>
+<li>写论文时一些旋转矩阵的问题没有搞懂，问了问chat gpt，将其回答记录如下。</li>
+<li>插件问题导致第一次加载网页时，公式没法正常显示，刷新一下即可。</li>
+</ul>
+<h1 id="旋转矩阵简述"><a href="#旋转矩阵简述" class="headerlink" title="旋转矩阵简述"></a>旋转矩阵简述</h1><p>旋转矩阵是一个3x3的矩阵，通常表示三维空间中的旋转变换。其9个元素分别代表了旋转矩阵的三列向量。具体而言，假设旋转矩阵为：</p>
+<p>$$<br>R &#x3D; \begin{bmatrix}<br>r_{11} &amp; r_{12} &amp; r_{13} \<br>r_{21} &amp; r_{22} &amp; r_{23} \<br>r_{31} &amp; r_{32} &amp; r_{33}<br>\end{bmatrix}<br>$$</p>
+<p>其中，$r_{ij}$表示矩阵中第i行第j列的元素。这些元素可以按列或按行解释，一般来说：</p>
+<ul>
+<li>第一列 $(r_{11},r_{21},r_{31})$表示X轴的旋转方向；</li>
+<li>第二列$(r_{12}, r_{22}, r_{32})$表示Y轴的旋转方向；</li>
+<li>第三列$(r_{13}, r_{23}, r_{33})$表示Z轴的旋转方向。</li>
+</ul>
+<p>这样，每一列就代表了旋转后X、Y、Z轴在原坐标系中的方向。这也意味着，一个向量在经过该旋转矩阵变换后，其坐标将由原来的坐标系变换到新的坐标系。</p>
+<h1 id="旋转矩阵如何作用于物体"><a href="#旋转矩阵如何作用于物体" class="headerlink" title="旋转矩阵如何作用于物体"></a>旋转矩阵如何作用于物体</h1><p>绕x轴旋转角度为$\theta$的旋转矩阵可以表示为：<br>$$<br>R_x(\theta) &#x3D; \begin{bmatrix}<br>1 &amp; 0 &amp; 0 \<br>0 &amp; \cos(\theta) &amp; -\sin(\theta) \<br>0 &amp; \sin(\theta) &amp; \cos(\theta)<br>\end{bmatrix}<br>$$</p>
+<p>绕y轴旋转角度为$\theta$的旋转矩阵可以表示为：<br>$$<br>R_y(\theta) &#x3D; \begin{bmatrix}<br>\cos(\theta) &amp; 0 &amp; \sin(\theta) \<br>0 &amp; 1 &amp; 0 \<br>-\sin(\theta) &amp; 0 &amp; \cos(\theta)<br>\end{bmatrix}<br>$$</p>
+<p>绕z轴旋转角度为$\theta$的旋转矩阵可以表示为：<br>$$<br>R_z(\theta) &#x3D; \begin{bmatrix}<br>\cos(\theta) &amp; -\sin(\theta) &amp; 0 \<br>\sin(\theta) &amp; \cos(\theta) &amp; 0 \<br>0 &amp; 0 &amp; 1<br>\end{bmatrix}<br>$$</p>
+<p>则，绕xyz轴旋转角度为$\theta$的旋转矩阵可以表示为：<br>$$<br>R_{xyz}(\theta) &#x3D; R_x(\alpha) \cdot R_y(\beta) \cdot R_z(\gamma)<br>$$</p>
+<p>其中，$\alpha$、$\beta$和$\gamma$分别表示绕x、y和z轴旋转的角度。$R_x(\alpha)$、$R_y(\beta)$和$R_z(\gamma)$分别是绕x、y和z轴旋转角度为$\alpha$、$\beta$和$\gamma$的旋转矩阵。具体的计算步骤如下：</p>
+<ol>
+<li>计算绕x轴旋转角度为$\alpha$的旋转矩阵$R_x(\alpha)$。</li>
+<li>计算绕y轴旋转角度为$\beta$的旋转矩阵$R_y(\beta)$。</li>
+<li>计算绕z轴旋转角度为$\gamma$的旋转矩阵$R_z(\gamma)$。</li>
+<li>将三个旋转矩阵按照顺序相乘，得到绕xyz轴旋转角度为$\theta$的旋转矩阵$R_{xyz}(\theta)$。</li>
+</ol>
+<p>请注意，这里的旋转顺序是先绕x轴、再绕y轴、最后绕z轴。如果旋转顺序不同，得到的旋转矩阵也会不同。</p>
+<p>例如，<br>当绕z轴旋转$\theta &#x3D; 45^\circ$时，旋转矩阵为：<br>$$<br>R_z(45^\circ) &#x3D; \begin{bmatrix}<br>\cos(45^\circ) &amp; -\sin(45^\circ) &amp; 0 \<br>\sin(45^\circ) &amp; \cos(45^\circ) &amp; 0 \<br>0 &amp; 0 &amp; 1<br>\end{bmatrix} &#x3D; \begin{bmatrix}<br>\frac{\sqrt{2}}{2} &amp; -\frac{\sqrt{2}}{2} &amp; 0 \<br>\frac{\sqrt{2}}{2} &amp; \frac{\sqrt{2}}{2} &amp; 0 \<br>0 &amp; 0 &amp; 1<br>\end{bmatrix}<br>$$</p>
+<h1 id="比较两个旋转矩阵之间的差异"><a href="#比较两个旋转矩阵之间的差异" class="headerlink" title="比较两个旋转矩阵之间的差异"></a>比较两个旋转矩阵之间的差异</h1><p>比较两个旋转矩阵之间的差异大小通常使用矩阵之间的距离或相似度来衡量。以下是一些常用的方法：</p>
+<ol>
+<li><p>Frobenius范数：计算两个矩阵之间的Frobenius范数，即矩阵元素差的平方和的平方根。假设A和B是两个$n \times n$的矩阵，则它们之间的Frobenius距离为：</p>
+<p>$$<br>||A - B||<em>F &#x3D; \sqrt{\sum</em>{i&#x3D;1}^{n}\sum_{j&#x3D;1}^{n} |A_{ij} - B_{ij}|^2}<br>$$</p>
+</li>
+<li><p>旋转矩阵的距离度量：针对旋转矩阵，可以使用专门的距离度量，如旋转矩阵之间的角度差或扭曲度等。</p>
+</li>
+<li><p>相似性度量：除了距离度量外，也可以使用相似性度量来比较两个旋转矩阵。常见的相似性度量包括相关系数、余弦相似度等。</p>
+</li>
+<li><p>特征值分解：对两个矩阵进行特征值分解，然后比较它们的特征值和特征向量，以评估它们之间的差异。<br>选择适当的方法取决于你对差异的具体定义和应用场景。</p>
+</li>
+</ol>
+<p>要计算两个旋转矩阵之间的余弦相似度，可以使用以下步骤：</p>
+<ol>
+<li><p>将两个旋转矩阵表示为四元数或旋转向量的形式。四元数和旋转向量是旋转矩阵的紧凑表示形式，便于计算相似度。</p>
+</li>
+<li><p>将四元数或旋转向量归一化，以确保它们表示的旋转是单位旋转。</p>
+</li>
+<li><p>使用内积公式计算两个归一化后的四元数或旋转向量之间的余弦相似度。对于四元数表示，余弦相似度计算公式为：</p>
+<p>$$<br>\text{similarity} &#x3D; \frac{q_1 \cdot q_2}{|q_1| \cdot |q_2|}<br>$$</p>
+<p>其中$q_1$和$q_2$分别是两个归一化后的四元数。对于旋转向量表示，余弦相似度计算公式为：</p>
+<p>$$<br>\text{similarity} &#x3D; \frac{r_1 \cdot r_2}{|r_1| \cdot |r_2|}<br>$$</p>
+<p>其中$r_1$和$r_2$分别是两个归一化后的旋转向量。</p>
+</li>
+</ol>
+<p>这样，通过计算归一化后的四元数或旋转向量之间的余弦相似度，可以得到两个旋转矩阵之间的相似度度量。余弦相似度的取值范围为[-1, 1]，值越接近1表示相似度越高，值越接近-1表示相似度越低。</p>
+<p>在Python中，你可以使用NumPy库来进行旋转矩阵的计算和相似度度量。以下是一个简单的示例代码，演示如何计算两个旋转矩阵之间的余弦相似度：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="comment"># 定义两个旋转矩阵</span></span><br><span class="line">R1 = np.array([[<span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>],</span><br><span class="line">               [<span class="number">0</span>, <span class="number">0</span>, -<span class="number">1</span>],</span><br><span class="line">               [<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>]])</span><br><span class="line">R2 = np.array([[<span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>],</span><br><span class="line">               [<span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>],</span><br><span class="line">               [<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>]])</span><br><span class="line"><span class="comment"># 计算旋转矩阵的转置</span></span><br><span class="line">R1_T = R1.T</span><br><span class="line"><span class="comment"># 计算旋转矩阵的Frobenius范数</span></span><br><span class="line">frobenius_norm = np.linalg.norm(R1 - R2, <span class="string">&#x27;fro&#x27;</span>)</span><br><span class="line"><span class="comment"># 计算旋转矩阵的余弦相似度</span></span><br><span class="line">cosine_similarity = np.<span class="built_in">sum</span>(R1 * R2) / (np.linalg.norm(R1) * np.linalg.norm(R2))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Frobenius范数:&quot;</span>, frobenius_norm)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;余弦相似度:&quot;</span>, cosine_similarity)</span><br></pre></td></tr></table></figure>
+<p>在这个示例中，我们首先定义了两个3x3的旋转矩阵R1和R2。接着，我们计算了它们之间的Frobenius范数和余弦相似度。你可以使用这个代码作为起点，根据你的具体需求来计算任意两个旋转矩阵之间的余弦相似度。</p>
+<p>余弦相似度的取值范围应该是[-1, 1]，其中1表示完全相似，-1表示完全不相似。如果计算得到的余弦相似度为负数，这可能是由于计算过程中的舍入误差或错误导致的。在实际应用中，余弦相似度通常不会为负数。<br>如果你计算得到的余弦相似度为负数，你可以检查计算过程中是否存在错误，例如矩阵的归一化错误、向量的方向错误等。另外，确保计算中使用的向量或矩阵是正确的，并且在计算余弦相似度之前，进行了正确的预处理，例如归一化。</p>
+<h1 id="r12-r22-r32比较稳定说明什么"><a href="#r12-r22-r32比较稳定说明什么" class="headerlink" title="r12,r22,r32比较稳定说明什么"></a>r12,r22,r32比较稳定说明什么</h1><p>$r_{12}$、$r_{22}$、$r_{32}$是旋转矩阵的第二列，分别表示旋转后Y轴在原坐标系中的方向。这三个元素的稳定性指的是它们在旋转矩阵中的变化相对较小，或者说在不同的旋转中变化不明显。<br>如果$r_{12}$、$r_{22}$、$r_{32}$比较稳定，说明在旋转变换中，Y轴的方向相对较为稳定，即旋转主要发生在其他轴上。这可能表示物体主要围绕X轴或Z轴旋转，而Y轴的方向相对不变。<br>在某些应用中，对于特定的物体运动或场景，这种稳定性可能具有特殊的意义。例如，在飞行器的姿态控制中，如果Y轴方向保持稳定，可能表示飞行器在水平方向上的姿态较为稳定。<br>总体而言，$r_{12}$、$r_{22}$、$r_{32}$的稳定性可以提供关于旋转矩阵和物体运动的一些信息，但具体解释还需要考虑特定情境和应用。</p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p>[1]三维坐标系旋转——旋转矩阵到旋转角之间的换算.<a target="_blank" rel="noopener" href="https://blog.csdn.net/c20081052/article/details/89479970">https://blog.csdn.net/c20081052/article/details/89479970</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/" data-id="clu3w8lan000pcvumhedr8y4e" data-title="相机旋转矩阵相关" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%A7%86%E8%A7%89slam/" rel="tag">视觉slam</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" rel="tag">计算机视觉</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          hoxe+github建站笔记
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2023/04/26/cmake%E5%8C%85%E5%90%ABvslam%E5%B8%B8%E7%94%A8%E5%BA%93/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">cmake包含vslam常用库</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/">C++ Primer</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/">孙鑫VC++深入详解</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/Qt/">Qt</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/git/">git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/opencv/">opencv</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/">嵌入式</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/">虚拟机</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/">视觉slam</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/c/" rel="tag">c++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cmake/" rel="tag">cmake</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/" rel="tag">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mfc/" rel="tag">mfc</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/opencv/" rel="tag">opencv</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/platformio/" rel="tag">platformio</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/protues/" rel="tag">protues</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/qt/" rel="tag">qt</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vmware/" rel="tag">vmware</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" rel="tag">嵌入式</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" rel="tag">环境配置</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" rel="tag">虚拟机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A7%86%E8%A7%89slam/" rel="tag">视觉slam</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" rel="tag">计算机视觉</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/c/" style="font-size: 16.67px;">c++</a> <a href="/tags/cmake/" style="font-size: 10px;">cmake</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 16.67px;">hexo</a> <a href="/tags/mfc/" style="font-size: 10px;">mfc</a> <a href="/tags/opencv/" style="font-size: 10px;">opencv</a> <a href="/tags/platformio/" style="font-size: 13.33px;">platformio</a> <a href="/tags/protues/" style="font-size: 10px;">protues</a> <a href="/tags/qt/" style="font-size: 13.33px;">qt</a> <a href="/tags/vmware/" style="font-size: 10px;">vmware</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 16.67px;">博客</a> <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="font-size: 16.67px;">嵌入式</a> <a href="/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" style="font-size: 20px;">环境配置</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 10px;">虚拟机</a> <a href="/tags/%E8%A7%86%E8%A7%89slam/" style="font-size: 16.67px;">视觉slam</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/" style="font-size: 10px;">计算机视觉</a> <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" style="font-size: 13.33px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/02/">二月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/01/">一月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/12/">十二月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/04/">四月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">六月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/06/">六月 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/">protues配置相关</a>
+          </li>
+        
+          <li>
+            <a href="/2024/02/26/platformio%E9%85%8D%E7%BD%AE/">platformio配置问题</a>
+          </li>
+        
+          <li>
+            <a href="/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/">通过代码配置PlatformIO生成HEX文件</a>
+          </li>
+        
+          <li>
+            <a href="/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/">qt程序打包发布，含三方库</a>
+          </li>
+        
+          <li>
+            <a href="/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/">vmware安装过增强工具还是无法拖放</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 He Zexian<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
