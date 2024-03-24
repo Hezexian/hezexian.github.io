@@ -1,8 +1,8 @@
 https://hezexian.github.io/live2d-widget-master/package-lock.json
 https://hezexian.github.io/live2d-widget-master/package.json
 https://hezexian.github.io/live2d-widget-master/waifu-tips.json
-https://hezexian.github.io/live2d-widget-master/demo/login.html
 https://hezexian.github.io/live2d-widget-master/demo/demo.html
+https://hezexian.github.io/live2d-widget-master/demo/login.html
 https://hezexian.github.io/tags/index.html
 https://hezexian.github.io/categories/index.html
 https://hezexian.github.io/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/
