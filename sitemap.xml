@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/live2d-widget-master/demo/demo.html</loc>
+    <loc>https://hezexian.github.io/live2d-widget-master/demo/login.html</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/live2d-widget-master/demo/login.html</loc>
+    <loc>https://hezexian.github.io/live2d-widget-master/demo/demo.html</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -237,13 +237,6 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/tags/cmake/</loc>
-    <lastmod>2024-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hezexian.github.io/tags/c/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -252,6 +245,13 @@
   
   <url>
     <loc>https://hezexian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hezexian.github.io/tags/cmake/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -314,14 +314,14 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
+    <loc>https://hezexian.github.io/tags/mfc/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/tags/mfc/</loc>
+    <loc>https://hezexian.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -337,14 +337,21 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/Qt/</loc>
+    <loc>https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/</loc>
+    <lastmod>2024-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/Qt/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -372,7 +379,7 @@
   </url>
   
   <url>
-    <loc>https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/</loc>
+    <loc>https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -387,13 +394,6 @@
   
   <url>
     <loc>https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2024-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
