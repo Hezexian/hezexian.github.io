@@ -16,27 +16,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   
-  <title>platformio配置问题 - 何泽贤的图书室</title>
+  <title>郭天祥51单片机第二版 - 何泽贤的图书室</title>
 
   
-    <meta name="description" content="P1_0,__sfr等报错：未定义 参考链接 c_cpp_properties.json中defines添加： 1234&quot;__interrupt(IntelliSense_Hack)&#x3D;&quot;,&quot;__sfr&#x3D;unsigned char&quot;,&quot;__sbit&#x3D;int&quot;,&quot;__at(a)&#x3D; &quot;  生成.hex文件   项目根目录添">
+    <meta name="description" content="1 点亮第一个LED  1.1 两种电平类型    电平类型 高 低     TTL +5V 0V   RS232 -12V +12V    TTL  &lt;----&gt;RS232，使用电平转换芯片max232  1.2 了解二、八、十、十六进制及其转换 略  1.3 逻辑电路  参考  《图灵完备 Turing Complete》游戏攻略保姆级详解 更新中… - 知乎 (zhihu.co">
 <meta property="og:type" content="article">
-<meta property="og:title" content="platformio配置问题">
-<meta property="og:url" content="https://hezexian.github.io/2024/02/26/platformio%E9%85%8D%E7%BD%AE/index.html">
+<meta property="og:title" content="郭天祥51单片机第二版">
+<meta property="og:url" content="https://hezexian.github.io/2024/03/26/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88/index.html">
 <meta property="og:site_name" content="何泽贤的图书室">
-<meta property="og:description" content="P1_0,__sfr等报错：未定义 参考链接 c_cpp_properties.json中defines添加： 1234&quot;__interrupt(IntelliSense_Hack)&#x3D;&quot;,&quot;__sfr&#x3D;unsigned char&quot;,&quot;__sbit&#x3D;int&quot;,&quot;__at(a)&#x3D; &quot;  生成.hex文件   项目根目录添">
+<meta property="og:description" content="1 点亮第一个LED  1.1 两种电平类型    电平类型 高 低     TTL +5V 0V   RS232 -12V +12V    TTL  &lt;----&gt;RS232，使用电平转换芯片max232  1.2 了解二、八、十、十六进制及其转换 略  1.3 逻辑电路  参考  《图灵完备 Turing Complete》游戏攻略保姆级详解 更新中… - 知乎 (zhihu.co">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-02-25T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-23T09:26:06.372Z">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261647320.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261654095.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261646199.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261619131.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261917038.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261931451.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261943929.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261938111.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261939651.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261953050.png">
+<meta property="article:published_time" content="2024-03-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-03-26T11:56:58.376Z">
 <meta property="article:author" content="He Zexian">
-<meta property="article:tag" content="环境配置">
+<meta property="article:tag" content="读书笔记">
 <meta property="article:tag" content="嵌入式">
-<meta property="article:tag" content="platformio">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261647320.png">
   
   
   
-  <meta name="keywords" content="环境配置,嵌入式,platformio">
+  <meta name="keywords" content="读书笔记,嵌入式">
 
   <!-- feed -->
   
@@ -81,36 +91,237 @@
 <div class="article banner top">
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
-<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/">嵌入式</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-02-25T16:00:00.000Z">2024-02-26</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-03-23T09:26:06.372Z">2024-03-23</time></span></div></div></div>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/">嵌入式</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-03-25T16:00:00.000Z">2024-03-26</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-03-26T11:56:58.376Z">2024-03-26</time></span></div></div></div>
     
     <div class="bottom only-title">
       
       <div class="text-area">
-        <h1 class="text title"><span>platformio配置问题</span></h1>
+        <h1 class="text title"><span>郭天祥51单片机第二版</span></h1>
         
       </div>
     </div>
     
   </div>
-  </div><article class="md-text content"><h1 id="p1_0__sfr等报错未定义"><a class="markdownIt-Anchor" href="#p1_0__sfr等报错未定义"></a> <code>P1_0</code>,<code>__sfr</code>等报错：未定义</h1>
-<p><a target="_blank" rel="noopener" href="https://github.com/microsoft/vscode-cpptools/issues/2499">参考链接</a></p>
-<p><code>c_cpp_properties.json</code>中defines添加：</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;__interrupt(IntelliSense_Hack)=&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="string">&quot;__sfr=unsigned char&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="string">&quot;__sbit=int&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="string">&quot;__at(a)= &quot;</span></span><br></pre></td></tr></table></figure>
-<h1 id="生成hex文件"><a class="markdownIt-Anchor" href="#生成hex文件"></a> 生成.hex文件</h1>
+  </div><article class="md-text content"><h1 id="1-点亮第一个led"><a class="markdownIt-Anchor" href="#1-点亮第一个led"></a> 1 点亮第一个LED</h1>
+<h2 id="11-两种电平类型"><a class="markdownIt-Anchor" href="#11-两种电平类型"></a> 1.1 两种电平类型</h2>
+<table>
+<thead>
+<tr>
+<th>电平类型</th>
+<th>高</th>
+<th>低</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TTL</td>
+<td>+5V</td>
+<td>0V</td>
+</tr>
+<tr>
+<td>RS232</td>
+<td>-12V</td>
+<td>+12V</td>
+</tr>
+</tbody>
+</table>
+<p>TTL  &lt;----&gt;RS232，使用电平转换芯片max232</p>
+<h2 id="12-了解二-八-十-十六进制及其转换"><a class="markdownIt-Anchor" href="#12-了解二-八-十-十六进制及其转换"></a> 1.2 了解二、八、十、十六进制及其转换</h2>
+<p>略</p>
+<h2 id="13-逻辑电路"><a class="markdownIt-Anchor" href="#13-逻辑电路"></a> 1.3 逻辑电路</h2>
 <ul>
-<li>
-<p>项目根目录添加<code>extra_script.py</code></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Import(<span class="string">&quot;env&quot;</span>)</span><br><span class="line"></span><br><span class="line">env.AddPostAction(</span><br><span class="line">    <span class="string">&quot;$BUILD_DIR/$&#123;PROGNAME&#125;.elf&quot;</span>,</span><br><span class="line">    env.VerboseAction(<span class="string">&quot; &quot;</span>.join([</span><br><span class="line">        <span class="string">&quot;$OBJCOPY&quot;</span>, <span class="string">&quot;-O&quot;</span>, <span class="string">&quot;ihex&quot;</span>, <span class="string">&quot;-R&quot;</span>, <span class="string">&quot;.eeprom&quot;</span>,</span><br><span class="line">        <span class="string">&quot;$BUILD_DIR/$&#123;PROGNAME&#125;.elf&quot;</span>, <span class="string">&quot;$BUILD_DIR/$&#123;PROGNAME&#125;.hex&quot;</span></span><br><span class="line">    ]), <span class="string">&quot;Building $BUILD_DIR/$&#123;PROGNAME&#125;.hex&quot;</span>)</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><code>platformio.ini</code>追加</p>
-<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">extra_scripts</span> = extra_script.py</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>重新编译即可</p>
+<li>参考
+<ul>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/604162902">《图灵完备 Turing Complete》游戏攻略保姆级详解 更新中… - 知乎 (zhihu.com)</a></li>
+</ul>
 </li>
 </ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:left"></th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">非</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">与</td>
+<td style="text-align:left">均1出1</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">与非</td>
+<td style="text-align:left">均1出0</td>
+<td>即将 “与” 取  非</td>
+</tr>
+<tr>
+<td style="text-align:center">或</td>
+<td style="text-align:left">均0出0</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">或非</td>
+<td style="text-align:left">均0出1</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">异或</td>
+<td style="text-align:left">不同出1</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">同或</td>
+<td style="text-align:left">相同出1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-关于reg52h的说明"><a class="markdownIt-Anchor" href="#14-关于reg52h的说明"></a> 1.4 关于&lt;reg52.h&gt;的说明</h2>
+<ul>
+<li>
+<p>作用：定义特殊功能寄存器和位寄存器</p>
+</li>
+<li>
+<p>类型说明</p>
+<table>
+<thead>
+<tr>
+<th>声明类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sfr</td>
+<td>特殊功能寄存器声明</td>
+</tr>
+<tr>
+<td>sfr16</td>
+<td>16位特殊功能寄存器声明</td>
+</tr>
+<tr>
+<td>sbit</td>
+<td>特殊功能位声明</td>
+</tr>
+<tr>
+<td>bit</td>
+<td>位变量声明</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2 id="15-单片机结构"><a class="markdownIt-Anchor" href="#15-单片机结构"></a> 1.5 单片机结构</h2>
+<ul>
+<li>
+<p>内部结构<br />
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261647320.png" alt="image-20240326164714235" style="zoom:67%;" /></p>
+<p>关于总线：总线(BUS)是计算机各部件之间传送信息的公共通道。微机中有内部总线和外部总线两类。</p>
+<ul>
+<li>内部总线是CPU内部之间的连线。</li>
+<li>外部总线是指CPU与其它部件之间的连线。
+<ul>
+<li>外部总线有三种：<strong>数据总线DB（Data Bus）、地址总线 AB（Address Bus）和控制总线CB（Control Bus）</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>tx开发板外观<br />
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261654095.png" alt="image-20240326165450988" style="zoom:67%;" /></p>
+</li>
+</ul>
+<h2 id="16-p3第二功能说明"><a class="markdownIt-Anchor" href="#16-p3第二功能说明"></a> 1.6 P3第二功能说明</h2>
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261646199.png" alt="image-20240326164647132" style="zoom:67%;" />
+<h2 id="17-单片机主要需要掌握"><a class="markdownIt-Anchor" href="#17-单片机主要需要掌握"></a> 1.7 单片机主要需要掌握</h2>
+<ul>
+<li>最小系统能够运行起来的必要条件
+<ul>
+<li>电源</li>
+<li>晶振</li>
+<li>复位电路</li>
+</ul>
+</li>
+<li>对单片机任意IO口的随意操作
+<ul>
+<li>输出控制电平高低</li>
+<li>输出检测电平高低。</li>
+</ul>
+</li>
+<li>定时器:重点掌握最常用的方式2</li>
+<li>中断:外部中断、定时器中断、串口中断</li>
+<li>串口通信:单片机之间、单片机与计算机间</li>
+</ul>
+<h2 id="18-实验点亮第一个led灯"><a class="markdownIt-Anchor" href="#18-实验点亮第一个led灯"></a> 1.8 实验：点亮第一个led灯</h2>
+<p>51单片机IO口默认高电平</p>
+<h3 id="181-操作p0_0为点亮第一个led灯"><a class="markdownIt-Anchor" href="#181-操作p0_0为点亮第一个led灯"></a> 1.8.1 操作P0_0为点亮第一个led灯</h3>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* 操作P0_0为点亮第一个led灯</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;reg52.h&gt;</span></span></span><br><span class="line"></span><br><span class="line">sbit D0 = P1^<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    D0 = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>为什么<code>sbit D0 = P1^0;</code>要在main函数之外？</p>
+<blockquote>
+<p>sbit声明的部分是编译器预处理的部分，就是为了给寄存器（位或字节）取个别名，是在函数没有编译之前必须完成的，放在主函数中就是编译中要处理的内容了，对于那些符号地址，C编译器不认识，有的名字也不允许（如P1.1）,必须在编译之前进行替代，就是sbit声明，替代的内容为相应单片机寄存器的头文件里边定义的，如REG51.H</p>
+</blockquote>
+<h3 id="182-操作总线为点亮第一个led灯"><a class="markdownIt-Anchor" href="#182-操作总线为点亮第一个led灯"></a> 1.8.2 操作总线为点亮第一个led灯</h3>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* 操作总线为点亮第一个led灯</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;reg52.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    P1 = <span class="number">0xfe</span>; <span class="comment">//1111 1110</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="183-结果"><a class="markdownIt-Anchor" href="#183-结果"></a> 1.8.3 结果</h3>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261619131.png" alt="image-20240326161919076" /></p>
+<h2 id="19-硬件补充知识"><a class="markdownIt-Anchor" href="#19-硬件补充知识"></a> 1.9 硬件补充知识</h2>
+<p>LED电路展示</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261917038.png" alt="image-20240326191751980" /></p>
+<h3 id="191-如何计算排阻的阻值"><a class="markdownIt-Anchor" href="#191-如何计算排阻的阻值"></a> 1.9.1 如何计算排阻的阻值？</h3>
+<ul>
+<li>
+<p>计算排阻值</p>
+<ul>
+<li>上图的P2即排阻，内部其实就是并联的一堆电阻如下图所示。</li>
+<li>下图中展示了如何根据电阻大小来控制通过led的电流，进而控制led的亮度。</li>
+<li>如图<br />
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261931451.png" alt="image-20240326193115416" /></li>
+</ul>
+</li>
+<li>
+<p>电阻的分类：</p>
+<ul>
+<li>
+<p>限流电阻<br />
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261943929.png" alt="image-20240326194305877" style="zoom: 50%;" /></p>
+</li>
+<li>
+<p>上拉电阻</p>
+</li>
+<li>
+<p>下拉电阻</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="192-74hc573锁存器"><a class="markdownIt-Anchor" href="#192-74hc573锁存器"></a> 1.9.2 74HC573锁存器</h3>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261938111.png" alt="image-20240326193830074" /></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261939651.png" alt="image-20240326193934617" /></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mtext>OE</mtext><mo stretchy="true">‾</mo></mover></mrow><annotation encoding="application/x-tex">\overline{\text{OE}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8833300000000001em;vertical-align:0em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">OE</span></span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span>（output enable）：上划线表示只有低电平时，芯片才有效。</p>
+<p>D：输入端</p>
+<p>Q：输出端</p>
+<p>LE：锁存器的锁存端</p>
+<p>Z：高阻态</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>Q</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">Q_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">Q</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：上一次的值</p>
+<p>X：任意值</p>
+<h3 id="193-stc-isp的用法"><a class="markdownIt-Anchor" href="#193-stc-isp的用法"></a> 1.9.3 STC-ISP的用法</h3>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403261953050.png" alt="image-20240326195307951" /></p>
+<h3 id="194-单片机的命名"><a class="markdownIt-Anchor" href="#194-单片机的命名"></a> 1.9.4 单片机的命名</h3>
+<p>STC89C5240CPDIP0721CV4336</p>
+<p>89：系列</p>
+<p>C：cmos</p>
+<p>52：2*4k存储空间</p>
+<p>40：最高40Mhz</p>
+<p>C：商用级</p>
+<p>PDIP：双列直插式封装</p>
+<p>0721：生产日期</p>
 
 <div class="article-footer fs14">
     <section id="license">
@@ -120,7 +331,7 @@
     </section>
     </div>
 </article>
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/">protues配置相关</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/">通过代码配置PlatformIO生成HEX文件</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/">protues配置相关</a></div></section></div>
 
 
 
@@ -148,7 +359,7 @@
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#p1_0__sfr%E7%AD%89%E6%8A%A5%E9%94%99%E6%9C%AA%E5%AE%9A%E4%B9%89"><span class="toc-text"> P1_0,__sfr等报错：未定义</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%9F%E6%88%90hex%E6%96%87%E4%BB%B6"><span class="toc-text"> 生成.hex文件</span></a></li></ol></div><div class="widget-footer">
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E7%82%B9%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AAled"><span class="toc-text"> 1 点亮第一个LED</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#11-%E4%B8%A4%E7%A7%8D%E7%94%B5%E5%B9%B3%E7%B1%BB%E5%9E%8B"><span class="toc-text"> 1.1 两种电平类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#12-%E4%BA%86%E8%A7%A3%E4%BA%8C-%E5%85%AB-%E5%8D%81-%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%8F%8A%E5%85%B6%E8%BD%AC%E6%8D%A2"><span class="toc-text"> 1.2 了解二、八、十、十六进制及其转换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#13-%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF"><span class="toc-text"> 1.3 逻辑电路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#14-%E5%85%B3%E4%BA%8Ereg52h%E7%9A%84%E8%AF%B4%E6%98%8E"><span class="toc-text"> 1.4 关于&lt;reg52.h&gt;的说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#15-%E5%8D%95%E7%89%87%E6%9C%BA%E7%BB%93%E6%9E%84"><span class="toc-text"> 1.5 单片机结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#16-p3%E7%AC%AC%E4%BA%8C%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E"><span class="toc-text"> 1.6 P3第二功能说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#17-%E5%8D%95%E7%89%87%E6%9C%BA%E4%B8%BB%E8%A6%81%E9%9C%80%E8%A6%81%E6%8E%8C%E6%8F%A1"><span class="toc-text"> 1.7 单片机主要需要掌握</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#18-%E5%AE%9E%E9%AA%8C%E7%82%B9%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AAled%E7%81%AF"><span class="toc-text"> 1.8 实验：点亮第一个led灯</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#181-%E6%93%8D%E4%BD%9Cp0_0%E4%B8%BA%E7%82%B9%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AAled%E7%81%AF"><span class="toc-text"> 1.8.1 操作P0_0为点亮第一个led灯</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#182-%E6%93%8D%E4%BD%9C%E6%80%BB%E7%BA%BF%E4%B8%BA%E7%82%B9%E4%BA%AE%E7%AC%AC%E4%B8%80%E4%B8%AAled%E7%81%AF"><span class="toc-text"> 1.8.2 操作总线为点亮第一个led灯</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#183-%E7%BB%93%E6%9E%9C"><span class="toc-text"> 1.8.3 结果</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#19-%E7%A1%AC%E4%BB%B6%E8%A1%A5%E5%85%85%E7%9F%A5%E8%AF%86"><span class="toc-text"> 1.9 硬件补充知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#191-%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E6%8E%92%E9%98%BB%E7%9A%84%E9%98%BB%E5%80%BC"><span class="toc-text"> 1.9.1 如何计算排阻的阻值？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#192-74hc573%E9%94%81%E5%AD%98%E5%99%A8"><span class="toc-text"> 1.9.2 74HC573锁存器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#193-stc-isp%E7%9A%84%E7%94%A8%E6%B3%95"><span class="toc-text"> 1.9.3 STC-ISP的用法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#194-%E5%8D%95%E7%89%87%E6%9C%BA%E7%9A%84%E5%91%BD%E5%90%8D"><span class="toc-text"> 1.9.4 单片机的命名</span></a></li></ol></li></ol></li></ol></div><div class="widget-footer">
 
 <a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/></g></svg><span>回到顶部</span></a></div></widget>
 </div></aside><div class='float-panel blur'>

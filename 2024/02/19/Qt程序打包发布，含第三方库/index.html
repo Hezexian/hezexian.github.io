@@ -19,35 +19,35 @@
   <title>qt程序打包发布，含三方库 - 何泽贤的图书室</title>
 
   
-    <meta name="description" content="原文链接 1、在Qt里选择release构建。  2、点击run运行，保证程序能够成功运行出来。  3、成功能运行后，去构建成功的build release文件夹下找到刚刚编译后的.exe文件。  4、单独复制出来到一个新文件夹model，复制进去。  5、在qt程序找到如下，构建的时候选择64位，现在打包编译也是需要64位，一一对应，不能混32位。  6、点击，命令执行进入到刚刚创建的文件夹下。">
+    <meta name="description" content="原文链接 1、在Qt里选择release构建。  2、点击run运行，保证程序能够成功运行出来。  3、成功能运行后，去构建成功的build release文件夹下找到刚刚编译后的.exe文件。  4、单独复制出来到一个新文件夹model，复制进去。  5、在qt程序找到如下，构建的时候选择64位，现在打包编译也是需要64位，一一对应，不能混32位。  6、点击，进入到刚刚创建的文件夹下。  7、">
 <meta property="og:type" content="article">
 <meta property="og:title" content="qt程序打包发布，含三方库">
 <meta property="og:url" content="https://hezexian.github.io/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/index.html">
 <meta property="og:site_name" content="何泽贤的图书室">
-<meta property="og:description" content="原文链接 1、在Qt里选择release构建。  2、点击run运行，保证程序能够成功运行出来。  3、成功能运行后，去构建成功的build release文件夹下找到刚刚编译后的.exe文件。  4、单独复制出来到一个新文件夹model，复制进去。  5、在qt程序找到如下，构建的时候选择64位，现在打包编译也是需要64位，一一对应，不能混32位。  6、点击，命令执行进入到刚刚创建的文件夹下。">
+<meta property="og:description" content="原文链接 1、在Qt里选择release构建。  2、点击run运行，保证程序能够成功运行出来。  3、成功能运行后，去构建成功的build release文件夹下找到刚刚编译后的.exe文件。  4、单独复制出来到一个新文件夹model，复制进去。  5、在qt程序找到如下，构建的时候选择64位，现在打包编译也是需要64位，一一对应，不能混32位。  6、点击，进入到刚刚创建的文件夹下。  7、">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/b2df30e41890ba8adbd9136620ad8fd1.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/93e1642a8c2965242560c034dc1778fc.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/8c2a2cd0371534f94bc07fbb02a65f49.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/4f19a0b23cefeb25a38c6e368595c344.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/51dc1b3e65a432f4def53b7f71f67313.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/9dd0334c9cdb9d790ce6f216c40b064d.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/7f1781b54b724f6fd5703e3d2ae7d9c1.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/e379df726e7f9b9ba279f3387cb05254.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/4a98bf3aca875e218ee572dc02457483.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/98961874d87634f0d742ee2c1e578e98.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/6589895116424ae90944211319c65049.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c4c8408edd0a048e2d8b8509bf7be84d.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/bd8cd611ed4dddd8d30c55e30157643b.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/5043ad16d5cab48105530631f8fd4ea7.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/58ba8a0b9d609e2b9fc922063bebfeab.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c28739313cf8a1cd06ea666f9d09da4d.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251541925.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251541781.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251542830.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251542268.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251543700.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251543670.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251544003.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251544197.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251545787.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251545740.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546508.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546976.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546747.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546799.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546463.png">
+<meta property="og:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251547614.png">
 <meta property="article:published_time" content="2024-02-18T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-23T09:26:06.482Z">
+<meta property="article:modified_time" content="2024-03-25T07:48:26.783Z">
 <meta property="article:author" content="He Zexian">
 <meta property="article:tag" content="qt">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/b2df30e41890ba8adbd9136620ad8fd1.png">
+<meta name="twitter:image" content="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251541925.png">
   
   
   
@@ -84,7 +84,7 @@
 <div class="widgets">
 
 
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/"><span class="title">相机旋转矩阵相关</span></a><a class="item title" href="/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/"><span class="title">通过代码配置PlatformIO生成HEX文件</span></a><a class="item title" href="/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"><span class="title">孙鑫VC++深入详解</span></a><a class="item title" href="/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/"><span class="title">vmware安装过增强工具还是无法拖放</span></a><a class="item title" href="/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"><span class="title">qt程序打包发布，含三方库</span></a><a class="item title" href="/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/"><span class="title">protues配置相关</span></a><a class="item title" href="/2024/02/26/platformio%E9%85%8D%E7%BD%AE/"><span class="title">platformio配置问题</span></a><a class="item title" href="/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/"><span class="title">1panel+雨云服务器+https配置lsky-pro（兰空图床）</span></a><a class="item title" href="/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/"><span class="title">hexo在butterfly/next主题下代码块缩进问题</span></a><a class="item title" href="/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"><span class="title">hoxe+github建站笔记</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/03/26/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88/"><span class="title">郭天祥51单片机第二版</span></a><a class="item title" href="/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/"><span class="title">cmake+mingw32+win11+clion编译OpenCV4.5+contrib</span></a><a class="item title" href="/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"><span class="title">git基本操作</span></a><a class="item title" href="/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/"><span class="title">1panel+雨云服务器+https配置lsky-pro（兰空图床）</span></a><a class="item title" href="/2024/02/24/%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E9%85%8D%E7%BD%AEPlatformIO%E7%94%9F%E6%88%90HEX%E6%96%87%E4%BB%B6/"><span class="title">通过代码配置PlatformIO生成HEX文件</span></a><a class="item title" href="/2024/02/19/Qt%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E5%8F%91%E5%B8%83%EF%BC%8C%E5%90%AB%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"><span class="title">qt程序打包发布，含三方库</span></a><a class="item title" href="/2024/01/31/emit%E5%92%8Cconnect%E7%9A%84%E9%A1%BA%E5%BA%8F/"><span class="title">emit和connect的顺序问题</span></a><a class="item title" href="/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/"><span class="title">相机旋转矩阵相关</span></a><a class="item title" href="/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/"><span class="title">孙鑫VC++深入详解</span></a><a class="item title" href="/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/"><span class="title">vmware安装过增强工具还是无法拖放</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -96,8 +96,8 @@
 <div class="article banner top">
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
-<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/Qt/">Qt</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-02-18T16:00:00.000Z">2024-02-19</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-03-23T09:26:06.482Z">2024-03-23</time></span></div></div></div>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/%E9%9A%8F%E7%AC%94/qt/">qt</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-02-18T16:00:00.000Z">2024-02-19</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-03-25T07:48:26.783Z">2024-03-25</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -110,37 +110,37 @@
   </div>
   </div><article class="md-text content"><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/sasafa/article/details/126538432?utm_source=pocket_saves">原文链接</a></p>
 <p>1、在Qt里选择release构建。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/b2df30e41890ba8adbd9136620ad8fd1.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251541925.png" alt="1" /></p>
 <p>2、点击run运行，保证程序能够成功运行出来。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/93e1642a8c2965242560c034dc1778fc.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251541781.png" alt="2" /></p>
 <p>3、成功能运行后，去构建成功的build release文件夹下找到刚刚编译后的.exe文件。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/8c2a2cd0371534f94bc07fbb02a65f49.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251542830.png" alt="3" /></p>
 <p>4、单独复制出来到一个新文件夹model，复制进去。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/4f19a0b23cefeb25a38c6e368595c344.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251542268.png" alt="4" /></p>
 <p>5、在qt程序找到如下，构建的时候选择64位，现在打包编译也是需要64位，一一对应，不能混32位。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/51dc1b3e65a432f4def53b7f71f67313.png"></p>
-<p>6、点击，<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C&spm=1001.2101.3001.7020">命令执行</a>进入到刚刚创建的文件夹下。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/9dd0334c9cdb9d790ce6f216c40b064d.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251543700.png" alt="5" /></p>
+<p>6、点击，进入到刚刚创建的文件夹下。</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251543670.png" alt="6" /></p>
 <p>7、执行<code>windeployqt jie_mian1.exe</code>，也就是windeployqt+你自己刚刚编译后的程序名称.exe。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/7f1781b54b724f6fd5703e3d2ae7d9c1.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251544003.png" alt="7" /></p>
 <p>8、此时已经在model文件下qt依赖库已经安装好了，直接点击就可以运行。<strong>但是如果含有第三库.dll，点击会提示找不到，所以这时候把.dll拷贝到model文件夹下，即可。</strong></p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/e379df726e7f9b9ba279f3387cb05254.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251544197.png" alt="8" /></p>
 <p>9、<strong>把缺少的第三方库拷贝到model文件夹下和qt依赖库放一起，即可打开</strong>，因为原来在qt上debug的时候，第三方库也是放在build debug文件夹下的，所以debug模式编译时候能找到。</p>
 <p>10、打开打包软件。用 <strong>Enigma Virtual Box软件</strong>。没有的同学，自己要去网上下载一个。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/4a98bf3aca875e218ee572dc02457483.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251545787.png" alt="9" /></p>
 <p>11、点击浏览，选择要打包的.exe文件。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/98961874d87634f0d742ee2c1e578e98.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251545740.png" alt="10" /></p>
 <p>12、点击文件选项，勾选压缩文件。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/6589895116424ae90944211319c65049.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546508.png" alt="" /></p>
 <p>13、点击左下角添加，选择按文件递归。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/c4c8408edd0a048e2d8b8509bf7be84d.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546976.png" alt="" /></p>
 <p>14、选择刚刚的model文件夹，点击确定。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/bd8cd611ed4dddd8d30c55e30157643b.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546747.png" alt="" /></p>
 <p>15、选择默认，确定即可。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/5043ad16d5cab48105530631f8fd4ea7.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546799.png" alt="" /></p>
 <p>16、最后看到下图，最后点击打包即可。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/58ba8a0b9d609e2b9fc922063bebfeab.png"></p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://img-blog.csdnimg.cn/img_convert/c28739313cf8a1cd06ea666f9d09da4d.png"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251546463.png" alt="" /></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://hezexian.oss-cn-guangzhou.aliyuncs.com/picture/202403251547614.png" alt="" /></p>
 <p>17、打包成功之后在<strong>刚刚设置的输出目标目录</strong>会出现打包好的<strong>XXXXX_boxed.exe</strong>应用程序，这个程序就是可以直接完全打包好的，<strong>点击即用</strong>。</p>
 
 <div class="article-footer fs14">
@@ -170,7 +170,9 @@
 
 
 
-<footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">He Zexian</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.27.0">Stellar 1.27.0</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。<br><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="4" onerror="localStorage.setItem('modelId','4')" style="display:none;"><script src="https://www.hekeke.top/live2d-widget-master/autoload.js"></script></p>
+<footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">He Zexian</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.27.0">Stellar 1.27.0</a> 主题创建。<br />
+本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。<br />
+<img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="4" onerror="localStorage.setItem('modelId','4')" style="display:none;"><script src="https://www.hekeke.top/live2d-widget-master/autoload.js"></script></p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
 </aside><div class='float-panel blur'>
