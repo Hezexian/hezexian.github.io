@@ -1,3 +1,5 @@
+https://hezexian.github.io/craft/%E8%AF%BE%E7%A8%8B%E9%93%BE%E6%8E%A5.html
+https://hezexian.github.io/about/index.html
 https://hezexian.github.io/2024/03/26/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88/
 https://hezexian.github.io/2022/06/09/cmake+mingw32+win11+clion%E7%BC%96%E8%AF%91OpenCV4.5+contrib/
 https://hezexian.github.io/2024/01/03/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/
@@ -12,7 +14,7 @@ https://hezexian.github.io/live2d-widget-master/demo/demo.html
 https://hezexian.github.io/live2d-widget-master/demo/login.html
 https://hezexian.github.io/tags/index.html
 https://hezexian.github.io/categories/index.html
-https://hezexian.github.io/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/
+https://hezexian.github.io/craft/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5.html
 https://hezexian.github.io/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/
 https://hezexian.github.io/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/
 https://hezexian.github.io/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/
@@ -37,7 +39,6 @@ https://hezexian.github.io/tags/platformio/
 https://hezexian.github.io/tags/protues/
 https://hezexian.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://hezexian.github.io/tags/vmware/
-https://hezexian.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/
 https://hezexian.github.io/tags/mfc/
 https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/
 https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/
@@ -49,5 +50,5 @@ https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/
 https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/
 https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/
 https://hezexian.github.io/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/
-https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/
 https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/
+https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/
