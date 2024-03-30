@@ -22,9 +22,9 @@
       
         <tags>
             
-            <tag> 嵌入式 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 嵌入式 </tag>
             
         </tags>
       
@@ -376,11 +376,11 @@
       
         <tags>
             
+            <tag> c++ </tag>
+            
             <tag> 视觉slam </tag>
             
             <tag> cmake </tag>
-            
-            <tag> c++ </tag>
             
         </tags>
       
