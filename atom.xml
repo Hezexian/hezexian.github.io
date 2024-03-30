@@ -38,9 +38,9 @@
     <category term="嵌入式" scheme="https://hezexian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="读书笔记" scheme="https://hezexian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="嵌入式" scheme="https://hezexian.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    <category term="读书笔记" scheme="https://hezexian.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -401,9 +401,9 @@
     
     <category term="视觉slam" scheme="https://hezexian.github.io/tags/%E8%A7%86%E8%A7%89slam/"/>
     
-    <category term="c++" scheme="https://hezexian.github.io/tags/c/"/>
-    
     <category term="cmake" scheme="https://hezexian.github.io/tags/cmake/"/>
+    
+    <category term="c++" scheme="https://hezexian.github.io/tags/c/"/>
     
   </entry>
   
