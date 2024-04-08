@@ -401,9 +401,9 @@
     
     <category term="视觉slam" scheme="https://www.hezexian.cn/tags/%E8%A7%86%E8%A7%89slam/"/>
     
-    <category term="cmake" scheme="https://www.hezexian.cn/tags/cmake/"/>
-    
     <category term="c++" scheme="https://www.hezexian.cn/tags/c/"/>
+    
+    <category term="cmake" scheme="https://www.hezexian.cn/tags/cmake/"/>
     
   </entry>
   
