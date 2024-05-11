@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://www.hezexian.cn/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-05-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/2024/03/26/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88/</loc>
     
     <lastmod>2024-05-08</lastmod>
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/live2d-widget-master/package.json</loc>
+    <loc>https://www.hezexian.cn/live2d-widget-master/waifu-tips.json</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -119,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/live2d-widget-master/waifu-tips.json</loc>
+    <loc>https://www.hezexian.cn/live2d-widget-master/package.json</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -209,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2024-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hezexian.cn/2024/01/02/hexo+github%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2024-03-23</lastmod>
@@ -287,14 +287,14 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/tags/git/</loc>
+    <loc>https://www.hezexian.cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.hezexian.cn/tags/git/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -373,14 +373,14 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/git/</loc>
+    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/git/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -422,6 +422,13 @@
   </url>
   
   <url>
+    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2024-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -430,13 +437,6 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
-    <lastmod>2024-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2024-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
