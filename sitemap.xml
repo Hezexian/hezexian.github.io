@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.hezexian.cn/2024/06/16/hexo%E7%AE%80%E6%98%93%E9%85%8D%E7%BD%AE%E7%9C%8B%E6%9D%BF%E5%A8%98/</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/2024/04/18/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88_%E7%94%B5%E5%AD%90%E5%85%83%E4%BB%B6/</loc>
     
     <lastmod>2024-06-16</lastmod>
@@ -165,15 +183,6 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/index.html</loc>
-    
-    <lastmod>2024-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/craft/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5.html</loc>
     
     <lastmod>2024-03-23</lastmod>
     
@@ -356,6 +365,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.hezexian.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
+    <lastmod>2024-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -422,6 +438,13 @@
   </url>
   
   <url>
+    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <lastmod>2024-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -430,13 +453,6 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2024-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

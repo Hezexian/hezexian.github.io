@@ -1,3 +1,5 @@
+https://www.hezexian.cn/2024/06/16/hexo%E7%AE%80%E6%98%93%E9%85%8D%E7%BD%AE%E7%9C%8B%E6%9D%BF%E5%A8%98/
+https://www.hezexian.cn/2023/12/26/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/
 https://www.hezexian.cn/2024/04/18/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88_%E7%94%B5%E5%AD%90%E5%85%83%E4%BB%B6/
 https://www.hezexian.cn/2024/03/26/%E9%83%AD%E5%A4%A9%E7%A5%A551%E5%8D%95%E7%89%87%E6%9C%BA%E7%AC%AC%E4%BA%8C%E7%89%88/
 https://www.hezexian.cn/2024/01/25/hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E7%BC%A9%E8%BF%9B%E9%97%AE%E9%A2%98/
@@ -17,7 +19,6 @@ https://www.hezexian.cn/live2d-widget-master/demo/demo.html
 https://www.hezexian.cn/live2d-widget-master/demo/login.html
 https://www.hezexian.cn/tags/index.html
 https://www.hezexian.cn/categories/index.html
-https://www.hezexian.cn/craft/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5.html
 https://www.hezexian.cn/2021/06/01/%E5%AD%99%E9%91%ABVC++%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/
 https://www.hezexian.cn/2024/02/19/vmware%E5%AE%89%E8%A3%85%E8%BF%87%E5%A2%9E%E5%BC%BA%E5%B7%A5%E5%85%B7%E8%BF%98%E6%98%AF%E6%97%A0%E6%B3%95%E6%8B%96%E6%94%BE/
 https://www.hezexian.cn/2024/02/27/protues%E9%85%8D%E7%BD%AE%E7%9B%B8%E5%85%B3/
@@ -41,6 +42,7 @@ https://www.hezexian.cn/tags/protues/
 https://www.hezexian.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://www.hezexian.cn/tags/vmware/
 https://www.hezexian.cn/tags/mfc/
+https://www.hezexian.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/qt/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/git/
@@ -50,6 +52,6 @@ https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/hexo/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/
 https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/
+https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/
 https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/
 https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/
-https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/
