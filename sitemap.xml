@@ -321,6 +321,13 @@
   </url>
   
   <url>
+    <loc>https://www.hezexian.cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/tags/hexo/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -370,20 +377,6 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/tags/mfc/</loc>
-    <lastmod>2024-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hezexian.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -392,6 +385,13 @@
   
   <url>
     <loc>https://www.hezexian.cn/tags/stm32/</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/tags/mfc/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -428,7 +428,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/hexo/</loc>
+    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -436,6 +436,13 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/opencv/</loc>
+    <lastmod>2024-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/hexo/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -463,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -478,13 +485,6 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
-    <lastmod>2024-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
     <lastmod>2024-07-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
