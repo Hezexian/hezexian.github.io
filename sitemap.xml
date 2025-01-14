@@ -2,9 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.hezexian.cn/2024/11/11/lvgl%E5%85%B3%E9%97%AD%E9%80%9A%E8%BF%87%E6%BB%91%E5%8A%A8%E5%86%85%E5%AE%B9%E5%8C%BA%E5%9F%9F%E5%88%87%E6%8D%A2%E9%80%89%E9%A1%B9%E5%8D%A1/</loc>
+    
+    <lastmod>2025-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/2024/11/11/lv_list%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%90%8E%E5%AF%B9%E9%BD%90/</loc>
+    
+    <lastmod>2025-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/2025/01/14/lv_slider%E4%B8%80%E6%AC%A1%E6%BB%91%E5%8A%A8%EF%BC%8Clv_event_release%E8%BF%9B%E5%85%A5%E5%A4%9A%E6%AC%A1%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    
+    <lastmod>2025-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hezexian.cn/2024/10/29/lvgl8%E5%9B%BE%E5%83%8F%E6%94%B9%E6%88%90lvgl9%E5%9B%BE%E5%83%8F%E7%9A%84%E6%96%B9%E6%B3%95(c%E6%96%87%E4%BB%B6)/</loc>
     
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/2024/11/04/%E6%A8%AA%E5%90%91%E6%BB%91%E5%8A%A8%E7%9A%84lv_list/</loc>
+    
+    <lastmod>2024-11-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -182,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/live2d-widget-master/package-lock.json</loc>
+    <loc>https://www.hezexian.cn/live2d-widget-master/package.json</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -191,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://www.hezexian.cn/live2d-widget-master/package.json</loc>
+    <loc>https://www.hezexian.cn/live2d-widget-master/package-lock.json</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -301,7 +337,7 @@
 
   <url>
     <loc>https://www.hezexian.cn/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -309,147 +345,147 @@
   
   <url>
     <loc>https://www.hezexian.cn/tags/qt/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/opencv/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E8%A7%86%E8%A7%89slam/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/cmake/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/c/</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/tags/git/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/tags/git/</loc>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/hexo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/lvgl/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/LVGL/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/platformio/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/protues/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/vmware/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/mfc/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/stm32/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/tags/c51/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -458,98 +494,112 @@
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/qt/</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/git/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/git/</loc>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/opencv/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/hexo/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E8%A7%86%E8%A7%89slam/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/</loc>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/lvgl/</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/LVGL/</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
-    <lastmod>2024-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/C-Primer/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/LVGL/</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%AD%99%E9%91%ABVC-%E6%B7%B1%E5%85%A5%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.hezexian.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/lvgl/</loc>
+    <lastmod>2025-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
