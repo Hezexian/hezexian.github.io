@@ -70,7 +70,7 @@
     <link href="https://www.hezexian.cn/2024/11/11/lv_list%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%90%8E%E5%AF%B9%E9%BD%90/"/>
     <id>https://www.hezexian.cn/2024/11/11/lv_list%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E5%90%8E%E5%AF%B9%E9%BD%90/</id>
     <published>2024-11-10T16:00:00.000Z</published>
-    <updated>2025-01-14T14:07:35.789Z</updated>
+    <updated>2025-04-12T05:25:54.943Z</updated>
     
     <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>lv_list里的按钮，如果在边缘未出现完整，点击后会自动完整停靠边缘，我想将这个功能关闭.</p><h1 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lv_obj_clear_flag(<span class="comment">/*列表按钮*/</span>,LV_OBJ_FLAG_SCROLL_ON_FOCUS);  <span class="comment">// &lt;--这里</span></span><br></pre></td></tr></table></figure><p>完整代码：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; ++i) &#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 横向列表</span></span><br><span class="line">        mainWin.tabview.arrLRList[i] = lv_list_create(mainWin.tabview.arrTab[i]);</span><br><span class="line">        lv_obj_set_pos(mainWin.tabview.arrLRList[i], <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">        lv_obj_set_size(mainWin.tabview.arrLRList[i], <span class="number">1024</span> - <span class="number">196</span>, <span class="number">600</span> - <span class="number">67</span>);</span><br><span class="line">        removeBorder(mainWin.tabview.arrLRList[i]);</span><br><span class="line">        lv_obj_set_scrollbar_mode(mainWin.tabview.arrLRList[i], LV_SCROLLBAR_MODE_OFF);</span><br><span class="line"></span><br><span class="line">        lv_obj_set_flex_flow(mainWin.tabview.arrLRList[i], LV_FLEX_FLOW_ROW); <span class="comment">// 横向滑动</span></span><br><span class="line">        lv_obj_set_scroll_dir(mainWin.tabview.arrLRList[i], LV_DIR_HOR);</span><br><span class="line"></span><br><span class="line">        lv_obj_clear_flag(mainWin.tabview.arrLRList[i], LV_OBJ_FLAG_SCROLL_ELASTIC); <span class="comment">// 清除回弹效果</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 列表按键</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; <span class="number">15</span>; ++j)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// 针对“专业烘干”只有12个按钮的情况</span></span><br><span class="line">            <span class="comment">//if (!mainWin.tabview.arrListImgRes[i][j])</span></span><br><span class="line">                <span class="comment">//continue;            </span></span><br><span class="line">            mainWin.tabview.arrListBtn[i][j] = lv_list_add_btn(mainWin.tabview.arrLRList[i], <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">            lv_obj_remove_style_all(mainWin.tabview.arrListBtn[i][j]);</span><br><span class="line">            lv_obj_set_size(mainWin.tabview.arrListBtn[i][j], (<span class="number">1024</span> - <span class="number">196</span>) / <span class="number">3</span>, <span class="number">600</span> - <span class="number">67</span>);</span><br><span class="line">            lv_obj_set_style_outline_width(mainWin.tabview.arrListBtn[i][j], <span class="number">2</span>, <span class="number">0</span>);</span><br><span class="line">            lv_obj_set_style_outline_color(mainWin.tabview.arrListBtn[i][j], lv_color_black(), <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">            lv_obj_add_event_cb(mainWin.tabview.arrListBtn[i][j],cb_ListBtn,LV_EVENT_ALL,<span class="literal">NULL</span>);</span><br><span class="line">            lv_obj_clear_flag(mainWin.tabview.arrListBtn[i][j],LV_OBJ_FLAG_SCROLL_ON_FOCUS);  <span class="comment">// &lt;--这里</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -83,9 +83,9 @@
     
     
     
-    <category term="备忘录" scheme="https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    <category term="随笔" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="lvgl" scheme="https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/lvgl/"/>
+    <category term="lvgl" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/lvgl/"/>
     
     
     <category term="lvgl" scheme="https://www.hezexian.cn/tags/lvgl/"/>
@@ -97,7 +97,7 @@
     <link href="https://www.hezexian.cn/2024/11/11/lvgl%E5%85%B3%E9%97%AD%E9%80%9A%E8%BF%87%E6%BB%91%E5%8A%A8%E5%86%85%E5%AE%B9%E5%8C%BA%E5%9F%9F%E5%88%87%E6%8D%A2%E9%80%89%E9%A1%B9%E5%8D%A1/"/>
     <id>https://www.hezexian.cn/2024/11/11/lvgl%E5%85%B3%E9%97%AD%E9%80%9A%E8%BF%87%E6%BB%91%E5%8A%A8%E5%86%85%E5%AE%B9%E5%8C%BA%E5%9F%9F%E5%88%87%E6%8D%A2%E9%80%89%E9%A1%B9%E5%8D%A1/</id>
     <published>2024-11-10T16:00:00.000Z</published>
-    <updated>2025-01-14T14:08:17.529Z</updated>
+    <updated>2025-04-12T05:26:27.593Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lv_obj_clear_flag(tabview, LV_OBJ_FLAG_SNAPPABLE);</span><br><span class="line">lv_obj_set_scroll_snap_x(tabview, LV_SCROLL_SNAP_NONE);</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -109,9 +109,9 @@
     
     
     
-    <category term="备忘录" scheme="https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    <category term="随笔" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="lvgl" scheme="https://www.hezexian.cn/categories/%E5%A4%87%E5%BF%98%E5%BD%95/lvgl/"/>
+    <category term="lvgl" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/lvgl/"/>
     
     
     <category term="lvgl" scheme="https://www.hezexian.cn/tags/lvgl/"/>
@@ -206,7 +206,7 @@ lv_obj_set_flex_flow(</summary>
     <link href="https://www.hezexian.cn/2024/10/20/lvgl%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E8%AF%BE%E7%A8%8B%E9%9A%8F%E7%AC%94/"/>
     <id>https://www.hezexian.cn/2024/10/20/lvgl%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E8%AF%BE%E7%A8%8B%E9%9A%8F%E7%AC%94/</id>
     <published>2024-10-19T16:00:00.000Z</published>
-    <updated>2024-10-20T10:01:24.617Z</updated>
+    <updated>2025-04-12T05:25:22.363Z</updated>
     
     <content type="html"><![CDATA[<p><strong>记录一些注意事项。</strong></p><p>1.标签部件<code>label</code></p><p>慎用<code>lv_label_set_text_static(label, &quot;hello&quot;);</code>，此时文本“hello”不在动态内存，而在指定的缓冲区中，为只读状态。</p><p>如果试图改变文本，将引发错误。如：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//错误代码</span></span><br><span class="line">lv_label_set_text_static(label, <span class="string">&quot;hello hello hello hello&quot;</span>);</span><br><span class="line">lv_label_set_long_mode(label, LV_LABEL_LONG_DOT); <span class="comment">// 试图将最后面的字符变成 ... ,而文字为只读状态，这样将引发错误。</span></span><br></pre></td></tr></table></figure><p>2.按钮部件<code>btn</code></p> <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lv_obj_add_flag(btn, LV_OBJ_FLAG_CHECKABLE);</span><br><span class="line">lv_obj_add_event_cb( btn, event_cb, LV_ENENT_VALUE_CHANDED, <span class="literal">NULL</span>);</span><br></pre></td></tr></table></figure><p>原因：状态<code>LV_ENENT_VALUE_CHANDED</code>用于指定检测按钮的值是否发生变化，而想要如此必须先开启按钮状态的切换：<code>lv_obj_add_flag(btn, LV_OBJ_FLAG_CHECKABLE);</code>，否则检测不到这个值的变化。</p><p>结论：检查<code>LV_ENENT_VALUE_CHANDED</code>，必先<code>lv_obj_add_flag(btn, LV_OBJ_FLAG_CHECKABLE);</code></p><p>3.开关部件<code>switch</code></p><p>改变指示器（<code>LV_PART_INDICATOR</code>）部分的颜色需要注意：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lv_obj_set_style_bg_color(switch1, lv_color_hex(<span class="number">0xdf5345</span>), LV_STATE_CHECKD | LV_PART_INDICATOR);</span><br></pre></td></tr></table></figure><p>一定需要添加<code>LV_STATE_CHECKD</code>，否则设置不生效。</p>]]></content>
     
@@ -222,10 +222,10 @@ lv_obj_set_flex_flow(</summary>
     
     <category term="随笔" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="LVGL" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/LVGL/"/>
+    <category term="lvgl" scheme="https://www.hezexian.cn/categories/%E9%9A%8F%E7%AC%94/lvgl/"/>
     
     
-    <category term="LVGL" scheme="https://www.hezexian.cn/tags/LVGL/"/>
+    <category term="lvgl" scheme="https://www.hezexian.cn/tags/lvgl/"/>
     
   </entry>
   

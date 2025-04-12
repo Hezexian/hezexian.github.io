@@ -67,7 +67,7 @@
       
       <categories>
           
-          <category> 备忘录 </category>
+          <category> 随笔 </category>
           
           <category> lvgl </category>
           
@@ -94,7 +94,7 @@
       
       <categories>
           
-          <category> 备忘录 </category>
+          <category> 随笔 </category>
           
           <category> lvgl </category>
           
@@ -204,14 +204,14 @@
           
           <category> 随笔 </category>
           
-          <category> LVGL </category>
+          <category> lvgl </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> LVGL </tag>
+            <tag> lvgl </tag>
             
         </tags>
       
@@ -805,9 +805,9 @@
             
             <tag> c++ </tag>
             
-            <tag> mfc </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> mfc </tag>
             
         </tags>
       
