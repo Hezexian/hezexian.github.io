@@ -285,7 +285,7 @@
           
           <category> 随笔 </category>
           
-          <category> 嵌入式 </category>
+          <category> 嵌入式硬件 </category>
           
       </categories>
       
@@ -393,7 +393,7 @@
           
           <category> 随笔 </category>
           
-          <category> 嵌入式 </category>
+          <category> 嵌入式硬件 </category>
           
       </categories>
       
@@ -401,8 +401,6 @@
         <tags>
             
             <tag> 嵌入式 </tag>
-            
-            <tag> protues </tag>
             
         </tags>
       
